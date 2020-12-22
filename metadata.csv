@@ -1,0 +1,5 @@
+url,type,study,covid_slice,total_slice,process,note
+http://medicalsegmentation.com/covid19/,.nii.gz,9,373,829,nii.gz2png.ipynb + merge_masks.ipynb,"background = 0, lung = 255, covid = 100, consolidation = 200"
+https://www.kaggle.com/c/covid-segmentation/data,.npy,49,473,930,npy2png.ipynb,"background = 0, lung = 255, covid = 100"
+https://www.kaggle.com/andrewmvd/covid19-ct-scans,.nii,29,1531,1531,nii2png.ipynb,"background = 0, lung = 255, covid = 100"
+https://www.kaggle.com/awsaf49/covid-ct-segmentation?select=metadata.csv,.h5,20,?,3520,hfive2png.ipynb,"background = 0, lung = 255, covid = 100"
